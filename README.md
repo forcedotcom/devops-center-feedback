@@ -15,5 +15,5 @@ If you have need to communicate with our team more privately, you can email sf-d
 ## Getting Started
 
 To get started using DevOps Center, please refer to the following documents:
-* [DevOps Center Setup Guide](https://docs.google.com/document/d/1dGpEciuuievTt16M_CianpOWECYGyUOnkoBc4O6g-Js/) - Includes information on pre-setup preparation, how to create projects, add environments, configure the piipeline, add users and create work items for your team members.
+* [DevOps Center Setup Guide](https://github.com/forcedotcom/devops-center-feedback/blob/main/SetupGuide_%20DevOpsCenter.pdf) - Includes information on pre-setup preparation, how to create projects, add environments, configure the piipeline, add users and create work items for your team members.
 * [DevOps Center QuickStart Guide](https://github.com/forcedotcom/devops-center-feedback/blob/main/QuickStartGuide_%20DevOpsCenter.pdf) - Learn about how to use the main features of DevOps Center, including how to manage project work items, review changes they’ve made in a work environment, commit those changes to the project repository, and promote (deploy) the changes through the lifecycle pipeline.
