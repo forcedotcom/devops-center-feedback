@@ -6,7 +6,7 @@ We are excited to have you as part of our DevOps Center pilot program.  DevOps C
 
 This pilot will only be as successful if we hear from you! We're excited to provide you with this early look at DevOps Center, and in return we ask that you provide us with honest feedback on your experiences with the product.  Don't be shy!  Your feedback is what will make this product better for our entire community.
 
-This private shared repository will be used as the central location for sharing information and collecting feedback on the pilot.  Bugs, feature reqests, and general feedback can be captured via the [Issues tab](https://github.com/forcedotcom/devops-center-feedback/issues) above.  General discussion or questions can be captured via the [Discussions tab](https://github.com/forcedotcom/devops-center-feedback/discussions).  Access to this repository will be limited to participants of the pilot and members of the DevOps Center product team at Salesforce.
+This private shared repository will be used as the central location for sharing information and collecting feedback on the pilot. Use the [Issues tab](https://github.com/forcedotcom/devops-center-feedback/issues) above to capture bugs, feature reqests, and general feedback.  Use the [Discussions tab](https://github.com/forcedotcom/devops-center-feedback/discussions) for general discussion or questions.  Access to this repository will be limited to participants of the pilot and members of the DevOps Center product team at Salesforce.
 
 Please share [this form](https://docs.google.com/forms/d/10GTW-jDZRvw8tdMS12HRGKPImZ6ZA5w6uSOK3g5EUEI) with any users on your team that are participating in this pilot so that we can provide them with access to this repository.  
 
