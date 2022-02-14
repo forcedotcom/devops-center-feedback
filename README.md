@@ -1,4 +1,4 @@
-# Welcome to the Salesforce DevOps Center Beta!
+# Welcome to the Salesforce DevOps Center Closed Beta!
 
 DevOps Center provides an end-to-end, UI-based experience for change and release management when developing on the Salesforce platform. Ready to try a more modern, automated, and repeatable process than what change sets provide? Want to take advantage of source control as part of your Salesforce development experience? Looking for a seamless push-button interface to migrate changes across the various stages of your deployment pipeline?  You've come to the right place!
 
@@ -6,7 +6,7 @@ DevOps Center provides an end-to-end, UI-based experience for change and release
 
 This beta will only be successful if we hear from you! We're excited to provide you with this early look at DevOps Center, and in return we ask that you provide us with honest feedback on your experiences with the product and documentation. Don't be shy! Your feedback is what will make this product better for our entire community.
 
-This private shared repository is the central location for sharing information and collecting your feedback. Use the [Issues tab](https://github.com/forcedotcom/devops-center-feedback/issues) above to capture bugs, feature requests, and other general observations. Use the [Discussions tab](https://github.com/forcedotcom/devops-center-feedback/discussions) for general discussion or questions. Access to this repository is limited to beta participants and members of the DevOps Center product team at Salesforce.
+This private shared repository is the central location for sharing information and collecting your feedback. Use the [Issues tab](https://github.com/forcedotcom/devops-center-feedback/issues) above to capture bugs, feature requests, and other general observations. Access to this repository is limited to beta participants and members of the DevOps Center product team at Salesforce.
 
 Please share [this form](https://docs.google.com/forms/d/10GTW-jDZRvw8tdMS12HRGKPImZ6ZA5w6uSOK3g5EUEI) with any users on your team so that we can provide them with access to this repository.  
 
