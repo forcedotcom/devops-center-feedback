@@ -1,7 +1,7 @@
-# Managed Package Installation Failure - The post install script failed.
+# Managed Package Installation Failure - The post install script failed
 
 ### Issue
-During package installation, in our post-installation Apex script, we’re attempting to create a new permission set for our users who can manage environments. This permission set is named `sf_devops_InitializeEnvironments`, and is setting the following permissions:
+During package installation, our post-installation Apex script is attempting to create a new permission set for our users who can manage environments. This permission set is named `sf_devops_InitializeEnvironments` and is setting the following permissions:
 
     Modify Metadata Through Metadata API Functions (required for our use cases)
     View Setup and Configuration (required by Modify Metadata Through Metadata API Functions)
@@ -9,7 +9,7 @@ During package installation, in our post-installation Apex script, we’re attem
     Customize Application (required for our use cases)
     Manage Custom Permissions (required by Customize Application)
 
-When the organization which is installing our package has the Translation Workbench enabled, there’s another dependency for Customize Application:
+If your org has Translation Workbench enabled, there’s another dependency for Customize Application:
 
     Modify Metadata Through Metadata API Functions (required for our use cases)
     View Setup and Configuration (required by Modify Metadata Through Metadata API Functions)
@@ -18,10 +18,10 @@ When the organization which is installing our package has the Translation Workbe
     Manage Custom Permissions (required by Customize Application)
     Manage Translation (required by Customize Applications)
 
-When that’s the case, our package installation post-install script fails, because our script isn’t including the Manage Translation permission.
+In this case, our package installation post-install script fails, because our script doesn't include the Manage Translation permission.
 
 ### Workaround
-Customers can work around this issue by [creating the permission set manually via the Setup UI](https://help.salesforce.com/s/articleView?id=sf.perm_sets_create.htm&type=5), and then attempting to install the DevOps Center package again. This should resolve the issue, because our post-install script first checks for the presence of the permission set (so that we don’t fail during re-installation scenarios), and doesn’t attempt to create the permission set if it already exists in the org. The Permission Set details are:
+[Create the permission set manually via the Setup UI](https://help.salesforce.com/s/articleView?id=sf.perm_sets_create.htm&type=5), and then install the DevOps Center package again. This fix should resolve the issue, because our post-install script first checks for the presence of the permission set (so that we don’t fail during re-installation scenarios), and doesn’t attempt to create the permission set if it already exists in the org. The Permission Set details are:
 
     API Name: sf_devops_InitializeEnvironments
     Label: sf_devops_InitializeEnvironments
