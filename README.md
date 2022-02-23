@@ -12,6 +12,12 @@ Please share [this form](https://docs.google.com/forms/d/10GTW-jDZRvw8tdMS12HRGK
 
 If you have need to communicate with our team more privately, you can email `sf-devopscenter-preview@salesforce.com`.  
 
+## Support During Beta
+
+When you require support during the beta, we prefer that you open a GitHub issue because it's easier for us to track it and respond, and other beta participants can see it in case they're having a similar issue. However, you can also contact us at  `sf-devopscenter-preview@salesforce.com`.
+
+Our general SLA is to respond to inquiries within 2 business days. Although we can't guarantee fixes during this beta period, we'll provide workarounds, when possible, as well as patches for critical issues as needed.
+
 ## Getting Started
 
 To get started using DevOps Center, refer to the following documents:
