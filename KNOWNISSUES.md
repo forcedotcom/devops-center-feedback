@@ -12,7 +12,7 @@ You’ve promoted changes to your QA or staging environment but you realize that
 - If multiple developers (and development environments) are involved, all the changes can be found in the first pipeline stage’s branch, such as Integration. Synchronize your development environments so that they have all the changes in the first stage’s branch. 
 
 2. Open one or more new work items.
-2. Make the required changes
+2. Make the required changes.
 2. Promote those changes through the pipeline.
 
 ## Managed Package Installation Failure - The post install script failed
