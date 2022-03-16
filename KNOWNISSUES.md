@@ -5,6 +5,8 @@
 ### Issue
 You’ve promoted changes to your QA or staging environment but you realize that you want or need to make additional changes before you can release these changes to your customers. For example, you need to add more tests or you missed an important requirement.
 
+**Note:** The workaround assumes you haven't made any changes outside of DevOps Center directly in a downstream pipeline stage branch. If you have, you'll need to manually re-create those changes in a development environment.
+
 ### Workaround
 1. First, how many developers (and development environments) are involved?
 
