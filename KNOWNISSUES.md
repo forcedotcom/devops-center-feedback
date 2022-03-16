@@ -1,4 +1,21 @@
-# Managed Package Installation Failure - The post install script failed
+# Known Issues
+
+## Can’t Move Promoted Changes Back to a Previous Pipeline Stage
+
+### Issue
+You’ve promoted changes to your QA or staging environment but you realize that you want or need to make additional changes before you release these changes to your customers. For example, you need to add more tests or you missed an important requirement.
+
+### Workaround
+1. First, how many developers (and development environments) are involved?
+
+- If there’s only one developer (and development environment) involved in these changes, and all the files and metadata exist in that development environment, skip to the next step. 
+- If multiple developers (and development environments) are involved, all the changes can be found in the first pipeline stage’s branch, such as Integration. Synchronize your development environments so that they have all the changes in the first stage’s branch. 
+
+2. Open one or more new work items.
+2. Make the required changes.
+2. Promote those changes through the pipeline.
+
+## Managed Package Installation Failure - The post install script failed
 
 ### Issue
 During package installation, our post-installation Apex script is attempting to create a new permission set for our users who can manage environments. This permission set is named `sf_devops_InitializeEnvironments` and is setting the following permissions:
