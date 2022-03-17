@@ -20,6 +20,32 @@ You’ve promoted changes to your QA or staging environment but you realize that
 ## Managed Package Installation Failure - The post install script failed
 
 ### Issue
+The installation fails and you get an email that looks something like this:
+
+```
+Subject: Sandbox: Package DevOps Center - Beta Install Failed
+Importance: High
+
+Your request to install package "DevOps Center - Beta 3.3.0" was unsuccessful. None of the data or setup information in your salesforce.com organization was affected.
+
+If your install continues to fail, contact Salesforce CRM Support through your normal channels and provide the following information.
+
+Organization: My Company (org-id)
+User: Jane Doe (user-id)
+Package: DevOps Center - Beta (04t6g000008ffbt)
+
+Problem:
+
+1.  Unexpected Error
+The package installation failed. Please provide the following information to the publisher:
+
+Organization Name: Acme Corporation ID: org-id
+Package: DevOps Center - Beta
+Version: 3.3
+Error Message: The post install script failed.
+```
+
+### What Happened
 During package installation, our post-installation Apex script is attempting to create a new permission set for our users who can manage environments. This permission set is named `sf_devops_InitializeEnvironments` and is setting the following permissions:
 
     Modify Metadata Through Metadata API Functions (required for our use cases)
