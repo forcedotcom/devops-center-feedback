@@ -1,5 +1,20 @@
 # Known Issues
 
+## Source Tracking Lost After a Connected Sandbox Is Refreshed
+
+### Issue
+If you refresh a sandbox used in an active DevOps Center project, source tracking is lost and DevOps Center can't identify changes files. 
+
+### Workaround
+If you don't have access to the Setup menu, ask your Salesforce admin for help.
+
+1. From Setup, enter `Named Credentials` in the Quick Find box, then select **Named Credentials**.
+2. Click **Edit** next to the refreshed sandbox (development environment).
+3. Change the URL by appending a couple random characters to the end of it, then click **Save**.
+4. Back in DevOps Center, add the sandbox as if it were a new development environment.
+5. Log in and authorize the sandbox.
+6. 
+
 ## Can’t Move Promoted Changes Back to a Previous Pipeline Stage
 
 ### Issue
