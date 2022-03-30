@@ -3,7 +3,7 @@
 ## Source Tracking Lost After a Connected Sandbox Is Refreshed
 
 ### Issue
-If you refresh a sandbox used in an active DevOps Center project, source tracking is lost and DevOps Center can't identify changed files. 
+If you refresh a sandbox used in an active DevOps Center project pipeline, source tracking is lost and DevOps Center can't identify changed files. 
 
 ### Workaround
 If you don't have access to the Setup menu, ask your Salesforce admin for help.
