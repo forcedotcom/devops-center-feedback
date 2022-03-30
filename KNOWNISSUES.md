@@ -9,7 +9,7 @@ If you refresh a sandbox used in an active DevOps Center project, source trackin
 If you don't have access to the Setup menu, ask your Salesforce admin for help.
 
 1. From Setup, enter `Named Credentials` in the Quick Find box, then select **Named Credentials**.
-2. Click **Edit** next to the refreshed sandbox (development environment).
+2. Click **Edit** next to the Named Credential record corresponding to the refreshed sandbox (development environment).
 3. Change the URL by appending a couple random characters to the end of it, then click **Save**.
 4. Back in DevOps Center, add the sandbox as if it were a new development environment.
 5. Log in and authorize the sandbox.
