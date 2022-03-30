@@ -13,7 +13,7 @@ If you don't have access to the Setup menu, ask your Salesforce admin for help.
 3. Change the URL by appending a couple random characters to the end of it, then click **Save**.
 4. Back in DevOps Center, add the sandbox as if it were a new development environment.
 5. Log in and authorize the sandbox.
-6. (Optional) Rename the "old" sandbox instance to distinguish it as "deprecated".
+6. (Optional) Rename the "old" sandbox instance's Environment record to distinguish it as "deprecated".
     1. Go to `https://<domain>.lightning.force.com/lightning/o/sf_devops__Environment__c/list?filterName=Recent`
     2. Create a new list view.
     3. From the dropdown menu next to the "old" sandbox, select **Edit**.
