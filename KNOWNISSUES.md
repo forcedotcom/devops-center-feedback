@@ -1,5 +1,17 @@
 # Known Issues
 
+## Can't Promote Changes to Production If Default Apex Test Option Is Selected
+
+### Issue
+When promoting changes to production, you select Default (no tests are run) as the Apex test option. You see this error:
+
+```
+INVALID_OPERAITON: testLevel of NoTestRun cannot be used in production organizations
+```
+
+### Workaround
+Select `Run Local Tests` instead.
+
 ## Source Tracking Lost After a Connected Sandbox Is Refreshed
 
 ### Issue
