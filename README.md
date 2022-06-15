@@ -1,5 +1,7 @@
 # Welcome to the Salesforce DevOps Center Closed Beta!
 
+**Note:** The DevOps Center public beta launch begins on June 20, 2022. Join the [DevOps Center Trailblazer group](https://trailhead.salesforce.com/en/trailblazer-community/groups/0F94S000000Guyg) to get the latest information on timing, to find links to documentation and videos, and to ask questions.
+
 DevOps Center provides an end-to-end, UI-based experience for change and release management when developing on the Salesforce platform. Ready to try a more modern, automated, and repeatable process than what change sets provide? Want to take advantage of source control as part of your Salesforce development experience? Looking for a seamless push-button interface to migrate changes across the various stages of your deployment pipeline?  You've come to the right place!
 
 ## We Need Your Feedback
