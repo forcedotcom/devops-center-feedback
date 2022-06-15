@@ -14,10 +14,6 @@ If you want to provide general feedback, request product enhancements, start dis
 ### DevOps Center Issues Repository
 If you need support or encounter a problem that is impeding your ability to use DevOps Center, open an [Issue](https://github.com/forcedotcom/devops-center-feedback/issues). 
 
-## Support During Beta
-
-When you require support during the beta, open a GitHub issue. It's easier for us to track it and respond, and other beta participants can see it in case they're having a similar issue.
-
 Our general SLA is to respond to inquiries within 2 business days. Although we can't guarantee fixes during this beta period, we'll provide workarounds, when possible, as well as patches for critical issues as needed.
 
 ## Getting Started
