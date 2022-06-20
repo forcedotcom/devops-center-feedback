@@ -6,7 +6,7 @@
 Sometimes the Projects page can take several minutes to load, and it appears that nothing is happening. 
 
 ### Workaround
-None. We're working on addressing this issue.
+Wait until the Projects list view loads. We're working on addressing this issue.
 
 ## Can't Promote Changes to Production If Default Apex Test Option Is Selected
 
