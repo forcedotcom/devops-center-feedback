@@ -1,4 +1,6 @@
-# Welcome to the Salesforce DevOps Center Closed Beta!
+# Welcome to the Salesforce DevOps Center Public Beta!
+
+The DevOps Center public beta launch begins on June 20, 2022. Join the [DevOps Center Trailblazer group](https://trailhead.salesforce.com/en/trailblazer-community/groups/0F94S000000Guyg) to get the latest information on timing, to find links to documentation and videos, and to ask questions.
 
 **Note:** The DevOps Center public beta launch begins on June 20, 2022. Join the [DevOps Center Trailblazer group](https://trailhead.salesforce.com/en/trailblazer-community/groups/0F94S000000Guyg) to get the latest information on timing, to find links to documentation and videos, and to ask questions.
 
@@ -8,20 +10,17 @@ DevOps Center provides an end-to-end, UI-based experience for change and release
 
 This beta will only be successful if we hear from you! We're excited to provide you with this early look at DevOps Center, and in return we ask that you provide us with honest feedback on your experiences with the product and documentation. Don't be shy! Your feedback is what will make this product better for our entire community.
 
-This private shared repository is the central location for sharing information and collecting your feedback. Use the [Issues tab](https://github.com/forcedotcom/devops-center-feedback/issues) above to capture bugs, feature requests, and other general observations. Access to this repository is limited to beta participants and members of the DevOps Center product team at Salesforce.
+### DevOps Center Trailblazer Community
+If you want to provide general feedback, request product enhancements, start discussions with other DevOps Center users or the product team, and share best practices, use the [DevOps Center Trailblazer group](https://trailhead.salesforce.com/en/trailblazer-community/groups/0F94S000000Guyg).   
 
-Please share [this form](https://docs.google.com/forms/d/10GTW-jDZRvw8tdMS12HRGKPImZ6ZA5w6uSOK3g5EUEI) with any users on your team so that we can provide them with access to this repository.  
-
-If you have need to communicate with our team more privately, you can email `sf-devopscenter-preview@salesforce.com`.  
-
-## Support During Beta
-
-When you require support during the beta, we prefer that you open a GitHub issue because it's easier for us to track it and respond, and other beta participants can see it in case they're having a similar issue. However, you can also contact us at  `sf-devopscenter-preview@salesforce.com`.
+### DevOps Center Issues Repository
+If you need support or encounter a problem that is impeding your ability to use DevOps Center, open an [Issue](https://github.com/forcedotcom/devops-center-feedback/issues). 
 
 Our general SLA is to respond to inquiries within 2 business days. Although we can't guarantee fixes during this beta period, we'll provide workarounds, when possible, as well as patches for critical issues as needed.
 
 ## Getting Started
 
 To get started using DevOps Center, refer to the following documents:
-* [DevOps Center Setup Guide](https://github.com/forcedotcom/devops-center-feedback/blob/main/SetupGuide_%20DevOpsCenter.pdf) - Includes information on installing and configuring DevOps Center, creating projects, adding environments, configuring the pipeline, adding users, and creating work items for your team members.
-* [DevOps Center Quick Start Guide](https://github.com/forcedotcom/devops-center-feedback/blob/main/QuickStartGuide_%20DevOpsCenter.pdf) - Learn about how to use the main features of DevOps Center, including how to manage project work items, make changes in a work environment, commit those changes to the project repository, and promote (deploy) the changes through the release pipeline.
+* [DevOps Center Release Notes](https://help.salesforce.com/articleView?id=release-notes.rn_devops_center.htm&type=5) - Provides an overview of the new features introduced during both the closed and public beta.
+* [*Salesforce Help*: Install and Configure DevOps Center](https://help.salesforce.com/articleView?id=sf.devops_center_setup.htm&type=5) - Includes information on installing and configuring DevOps Center, creating projects, adding environments, configuring the pipeline, adding users, and creating work items for your team members.
+* [*Salesforce Help*: Manage and Release Changes Easily and Collaboratively with DevOps Center](https://help.salesforce.com/articleView?id=sf.devops_center_overview.htm&type=5) - Learn about how to use the main features of DevOps Center, including how to manage project work items, make changes in a work environment, commit those changes to the project repository, and promote (deploy) the changes through the release pipeline.
