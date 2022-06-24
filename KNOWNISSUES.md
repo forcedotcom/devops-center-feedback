@@ -1,5 +1,7 @@
 # Known Issues
 
+## Package Installation Failed - The post install script failed
+
 ### Issue
 During package installation, our post-installation Apex script is attempting to create a new permission set for our users who can manage environments. This permission set is named `sf_devops_InitializeEnvironments` and is setting the following permissions:
 
