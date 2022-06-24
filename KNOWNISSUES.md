@@ -3,11 +3,11 @@
 ### Issue
 During package installation, our post-installation Apex script is attempting to create a new permission set for our users who can manage environments. This permission set is named `sf_devops_InitializeEnvironments` and is setting the following permissions:
 
-    Modify Metadata Through Metadata API Functions (required for our use cases)
-    View Setup and Configuration (required by Modify Metadata Through Metadata API Functions)
-    View Roles and Role Hierarchy (required by Modify Metadata Through Metadata API Functions) 
-    Customize Application (required for our use cases)
-    Manage Custom Permissions (required by Customize Application)
+    * Modify Metadata Through Metadata API Functions (required for our use cases)
+    * View Setup and Configuration (required by Modify Metadata Through Metadata API Functions)
+    * View Roles and Role Hierarchy (required by Modify Metadata Through Metadata API Functions) 
+    * Customize Application (required for our use cases)
+    * Manage Custom Permissions (required by Customize Application)
 
 If your org has [Enterprise Territory Management](https://help.salesforce.com/s/articleView?id=sf.tm2_intro.htm&type=5) enabled, there's another dependency for Customize Application:
 
