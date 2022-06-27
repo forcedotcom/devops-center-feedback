@@ -3,6 +3,7 @@
 Here the workarounds for these known issues (bugs), which we plan to address or fix in a future release. Also see the Troubleshooting topics in Salesforce help for other errors and workarounds.
 
 [Troubleshooting DevOps Center Configuration](https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting_setup.htm)
+
 [Troubleshooting DevOps Center](https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting.htm)
 
 ## Package Installation Failed - The post install script failed
