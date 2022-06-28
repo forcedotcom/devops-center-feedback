@@ -6,6 +6,25 @@ Here the workarounds for these known issues (bugs), which we plan to address or 
 
 [Troubleshoot DevOps Center Errors](https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting.htm)
 
+## Can't Install DevOps Center in a Professional Edition Org
+
+### Issue
+An unforseen issue occurs when the post installation script runs. 
+
+### Workaround
+None. However, you can install DevOps Center in another supported org edition, such as Developer Edition. We plan to fix this issue in a near-future release.
+
+## "Internal Server Error" when opening DevOps Center
+
+### Issue
+Can't open DevOps Center due to an internal server error. Right now, DevOps Center isn't compatible with Lightning Web Security. We plan to fix this issue in a near-future release.
+
+### Workaround
+Disable Lightning Web Security.
+
+1. From Setup, in the Quick Find box, enter `Session Settings`, and then select **Session Settings**.
+2. On the Session Settings page, deselect **Use Lightning Web Security for Lightning web components** and save.
+
 ## Package Installation Failed - The post install script failed
 
 ### Issue
