@@ -14,10 +14,10 @@ An unforseen issue occurs when the post installation script runs.
 ### Workaround
 None. However, you can install DevOps Center in another supported org edition, such as Developer Edition. We plan to fix this issue in a near-future release.
 
-## "Internal Server Error" when opening DevOps Center
+## "Sorry to Interrupt: An internal server error has occurred" when opening DevOps Center
 
 ### Issue
-Can't open DevOps Center due to an internal server error. Right now, DevOps Center isn't compatible with Lightning Web Security. We plan to fix this issue in a near-future release.
+Right now, DevOps Center isn't compatible with Lightning Web Security. We plan to fix this issue in a near-future release.
 
 ### Workaround
 Disable Lightning Web Security.
