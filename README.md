@@ -22,7 +22,7 @@ Our general SLA is to respond to inquiries within 2 business days. Although we c
 
 To get started using DevOps Center, refer to the following documents:
 
-* [DevOps Center Patch Release Notes](xxx) - Provide information on bug fixes that are included in a patch release.
+* [DevOps Center Patch Release Notes](https://github.com/forcedotcom/devops-center-feedback/blob/ekapner-patch1-docs/RELEASENOTES.md) - Provide information on bug fixes that are included in a patch release.
 * [Known Issues](https://github.com/forcedotcom/devops-center-feedback/blob/main/KNOWNISSUES.md) - Provides details and workarounds for issues that we plan to address or fix in a future release.
 * [*Salesforce Help*: Install and Configure DevOps Center](https://help.salesforce.com/articleView?id=sf.devops_center_setup.htm&type=5) - Includes information on installing and configuring DevOps Center, creating projects, adding environments, configuring the pipeline, adding users, and creating work items for your team members.
 * [*Salesforce Help*: Manage and Release Changes Easily and Collaboratively with DevOps Center](https://help.salesforce.com/articleView?id=sf.devops_center_overview.htm&type=5) - Learn about how to use the main features of DevOps Center, including how to manage project work items, make changes in a work environment, commit those changes to the project repository, and promote (deploy) the changes through the release pipeline.
