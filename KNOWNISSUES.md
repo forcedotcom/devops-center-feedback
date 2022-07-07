@@ -8,7 +8,7 @@ Here the workarounds for these known issues (bugs), which we plan to address or 
 
 ## Can't Install DevOps Center in a Professional Edition Org
 
-**Note:** Fixed in patch v 4.x.x
+**Note:** Fixed in patch 4.3.0
 
 ### Issue
 An unforseen issue occurs when the post installation script runs. 
@@ -18,7 +18,7 @@ None. However, you can install DevOps Center in another supported org edition, s
 
 ## "Sorry to Interrupt: An internal server error has occurred" when opening DevOps Center
 
-**Note:** Fixed in patch v 4.x.x
+**Note:** Fixed in patch 4.3.0
 
 ### Issue
 Right now, DevOps Center isn't compatible with Lightning Web Security. We plan to fix this issue in a near-future release.
@@ -40,7 +40,7 @@ During package installation, our post-installation Apex script is attempting to 
     * Customize Application (required for our use cases)
     * Manage Custom Permissions (required by Customize Application)
 
-**Note:** Enterprise Territory Management issue fixed in patch v 4.x.x
+**Note:** Enterprise Territory Management issue fixed in patch 4.3.0
 
 If your org has [Enterprise Territory Management](https://help.salesforce.com/s/articleView?id=sf.tm2_intro.htm&type=5) enabled, there's another dependency for Customize Application:
 
