@@ -6,6 +6,11 @@ Here the workarounds for these known issues (bugs), which we plan to address or 
 
 [Troubleshoot DevOps Center Errors](https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting.htm)
 
+## DevOps Center Records Count Against Org Storage Limits
+
+### Issue
+We've previously stated that DevOps Center doesn't count against org storage limits (for example, object records), but it currently does. If you installed DevOps Center in a Developer Edition org, you're more likely to run into this issue because storage limits are lower.
+
 ## Can't Install DevOps Center in a Professional Edition Org
 
 **Note:** Fixed in patch 4.3.0
