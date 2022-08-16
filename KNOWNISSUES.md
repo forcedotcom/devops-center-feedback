@@ -6,6 +6,17 @@ Here the workarounds for these known issues (bugs), which we plan to address or 
 
 [Troubleshoot DevOps Center Errors](https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting.htm)
 
+## Can't See All Repos Branches When Setting Up Pipeline
+
+### Issue
+When you're building your pipeline and want to select a branch from the drop-down, you can't see all the branches available in the repository. Consequently, you can't select the branch you want to select.
+
+### Workaround
+1. On the Pipeline Environments, click **Edit Branch**.
+2. From the Use an Existing Branch drop-down, select any branch, then click **Save**.
+3. Click **Edit Branch** again.
+4. &&& this didn't work for me. Get errors once I activate the pipeline
+
 ## DevOps Center Records Count Against Org Storage Limits
 
 ### Issue
