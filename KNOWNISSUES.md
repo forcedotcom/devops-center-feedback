@@ -15,7 +15,9 @@ When you're building your pipeline and want to select a branch from the drop-dow
 1. On the Pipeline Environments, click **Edit Branch**.
 2. From the Use an Existing Branch drop-down, select any branch, then click **Save**.
 3. Click **Edit Branch** again.
-4. &&& this didn't work for me. Get errors once I activate the pipeline
+4. but now click on the create branch from main toggle. And in the name use : 'main' or your desired branch.. And hit save.
+&&& is it supposed to say create y9 from main?? 
+5. &&& this didn't work for me. Get errors once I activate the pipeline
 
 ## DevOps Center Records Count Against Org Storage Limits
 
