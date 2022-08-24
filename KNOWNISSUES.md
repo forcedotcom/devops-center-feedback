@@ -6,6 +6,21 @@ Here the workarounds for these known issues (bugs), which we plan to address or 
 
 [Troubleshoot DevOps Center Errors](https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting.htm)
 
+## Can't See All Repos Branches When Setting Up Pipeline
+
+### Issue
+When you're building your pipeline and want to select a branch from the drop-down, you can't see all the branches available in the repository. Consequently, you can't select the branch you want to select.
+
+### Workaround
+1. On the Pipeline Environments, click **Edit Branch**.
+2. From the Use an Existing Branch drop-down, select any branch, then click **Save**.
+3. Click **Edit Branch** again.
+4. Select **Create a branch for me from this stage**.
+5. For the Branch Name, enter the existing branch's name, then click **Save**. Because DevOps Center doesn't allow duplicate branch names, it finds the existing branch and uses it. 
+6. Activate the pipeline.
+
+If you get a validation error when activating the pipeline, open a [GitHub issue](https://github.com/forcedotcom/devops-center-feedback/issues).
+
 ## DevOps Center Records Count Against Org Storage Limits
 
 ### Issue
