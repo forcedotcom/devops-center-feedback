@@ -15,9 +15,11 @@ When you're building your pipeline and want to select a branch from the drop-dow
 1. On the Pipeline Environments, click **Edit Branch**.
 2. From the Use an Existing Branch drop-down, select any branch, then click **Save**.
 3. Click **Edit Branch** again.
-4. but now click on the create branch from main toggle. And in the name use : 'main' or your desired branch.. And hit save.
-&&& is it supposed to say create y9 from main?? 
-5. &&& this didn't work for me. Get errors once I activate the pipeline
+4. Select **Create a branch for me from this stage**.
+5. For the Branch Name, enter the existing branch's name, then click **Save**.
+6. Activate the pipeline.
+
+If you get a validation error when activating the pipeline, open a [GitHub issue](https://github.com/forcedotcom/devops-center-feedback/issues).
 
 ## DevOps Center Records Count Against Org Storage Limits
 
