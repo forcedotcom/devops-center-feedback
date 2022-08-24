@@ -16,7 +16,7 @@ When you're building your pipeline and want to select a branch from the drop-dow
 2. From the Use an Existing Branch drop-down, select any branch, then click **Save**.
 3. Click **Edit Branch** again.
 4. Select **Create a branch for me from this stage**.
-5. For the Branch Name, enter the existing branch's name, then click **Save**.
+5. For the Branch Name, enter the existing branch's name, then click **Save**. Because DevOps Center doesn't allow duplicate branch names, it finds the existing branch and uses it. 
 6. Activate the pipeline.
 
 If you get a validation error when activating the pipeline, open a [GitHub issue](https://github.com/forcedotcom/devops-center-feedback/issues).
