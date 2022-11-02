@@ -6,6 +6,14 @@ Here the workarounds for these known issues (bugs), which we plan to address or 
 
 [Troubleshoot DevOps Center Errors](https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting.htm)
 
+## DevOps Center Isn't Deploying Translation Consistently
+
+### Issue
+DevOps Center deploys only the first translation `-meta.xml` file instead of the `objectTranslation-meta.xml file`.
+
+### Workaround
+None. We're working on addressing this issue.
+
 ## Can't See All Repos Branches When Setting Up Pipeline
 
 ### Issue
