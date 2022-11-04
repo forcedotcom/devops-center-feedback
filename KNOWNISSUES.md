@@ -6,10 +6,10 @@ Here the workarounds for these known issues (bugs), which we plan to address or 
 
 [Troubleshoot DevOps Center Errors](https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting.htm)
 
-## DevOps Center Isn't Deploying Translation Consistently
+## DevOps Center Isn't Deploying Object Translations Correctly
 
 ### Issue
-DevOps Center deploys only the first translation `-meta.xml` file instead of the `objectTranslation-meta.xml file`.
+DevOps Center often fails to deploy CustomObjectTranslation metadata correctly.
 
 ### Workaround
 None. We're working on addressing this issue.
