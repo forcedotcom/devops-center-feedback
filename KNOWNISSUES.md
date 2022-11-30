@@ -6,6 +6,16 @@ Here the workarounds for these known issues (bugs), which we plan to address or 
 
 [Troubleshoot DevOps Center Errors](https://help.salesforce.com/s/articleView?id=sf.devops_center_troubleshooting.htm)
 
+## Error When Trying to Launch DevOps Center - Sorry to Interrupt
+
+### Issue
+When you try to launch DevOps Center, you get an error popup that contains the text, "Sorry to interrupt. This page has an error. You might just need to refresh it. Cannot set properties of undefined (setting 'appState'). 
+
+There's an incompatibility between DevOps Center and LWC Debug Mode.
+
+### Workaround
+Disable LWC Debug Mode. See Lightning Web Components Dev Guide: [Enable Debug Mode in Salesforce](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.debug_mode_enable) for instructions. 
+
 ## DevOps Center Isn't Deploying Object Translations Correctly
 
 ### Issue
