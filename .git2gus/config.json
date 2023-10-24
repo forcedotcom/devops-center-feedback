@@ -1,6 +1,10 @@
 {
   "productTag": "a1aAH00000004MRYAY",
-  "defaultBuild": "DOCe-Beta2",
-  "hideWorkItemUrl": "true"
-  
+  "defaultBuild": "DOCe-Git2Gus",
+  "issueTypeLabels": {
+    "feature": "USER STORY",
+    "regression": "BUG P1",
+    "bug": "BUG P3"
+  },
+  "statusWhenClosed": "FIXED"
 }
